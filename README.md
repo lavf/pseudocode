@@ -1,0 +1,2 @@
+# pseudocode
+Training - pseudocode verification
