@@ -1,4 +1,4 @@
-erzeugeTabelle(Integer : vertreterNummer) {}
+erzeugeTabelle() {
 
 Integer i := 0
 
@@ -48,8 +48,8 @@ solange i < VKA.Length()
 
             solange i < VKA.Length() und kundenNummerAkt = VKA[i][1]
                 Order-Objekt orderObj := getOrderData(auftragsNummerAkt)
-                nettoUmsatz := ordenObj.NettoUmsatz + nettoUmsatz
-                provision := orderObj.Provision + provision
+                nettoUmsatz := ordenObj.getNettoUmsatz() + nettoUmsatz
+                provision := orderObj.getProvision() + provision
                 printOrderData(orderObj)
                 ++i
             ende von solange
@@ -62,14 +62,17 @@ solange i < VKA.Length()
         summenUmstGesamt := vertreterUmstGesamt + summenUmstGesamt
         summenProvisionGesamt := provisionGesamt + summenProvisionGesamt
         printSum("Vertreter Gesamt", vertreterUmstGesamt, provisionGesamt)
-    
+        wenn hoechsteUmsatz < vertreterUmstGesamt dann
+            hoechsteUmsatz := vertreterUmstGesamt
+            hoechsteUmsatzId := agentObj.getName()
+            hoechsteUmsatzKunden := vertreterNummerAkt
+        ende von wenn
 ende von solange
-wenn hoechsteUmsatz < summenUmstGesamt dann
-    hoechsteUmsatz := summenUmstGesamt
-    hoechsteUmsatzKunden := vertreterNummerAkt
-ende von wenn
+
+
+
 printSum("Summen Gesamt", summenUmstGesamt, summenProvisionGesamt)
 
+printMaxText(hoechsteUmsatzKunden, hoechsteUmsatz)
 
-printMaxText()
-
+}

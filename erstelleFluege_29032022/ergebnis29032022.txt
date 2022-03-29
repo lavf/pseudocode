@@ -1,0 +1,24 @@
+Eingabedatum: 22.03.2022, Eingabeplätze:   1
+
+10001 , Preis: 150.67, freie Plätze: 23
+10009 , Preis: 320.07, freie Plätze: 3
+10010 , Preis: 330.57, freie Plätze: 15
+10011 , Preis: 250.67, freie Plätze: 2
+----------------------------------------------------
+Eingabedatum: 22.03.2022, Eingabeplätze: 120
+
+Es gibt keinen Flug am 22.03.2022 für 120 Persone*n
+-----------------------------------------------------
+Eingabedatum: 13.04.2022, Eingabeplätze:   1
+
+10006 , Preis: 750.67, freie Plätze: 78
+-----------------------------------------------------
+Eingabedatum: 20.04.2022, Eingabeplätze:  -4
+
+Es gibt keinen Flug am 20.04.2022 für -4 Persone*n
+-----------------------------------------------------
+Eingabedatum: 28.08.2022, Eingabeplätze:  10
+
+10004 , Preis: 350.47, freie Plätze: 55
+10005 , Preis: 250.67, freie Plätze: 34
+-----------------------------------------------------
