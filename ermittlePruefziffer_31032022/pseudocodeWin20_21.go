@@ -24,7 +24,7 @@ ermittlePruefziffer(ersteAchtZahle : Integer[]) : Integer {
 	Integer i := 0
 
 	solange i < ersteAchtZahle.Laenge()
-		wenn i % 2 == 0
+		wenn i % 2 = 0
 			dann
 				pruefziffer := ersteAchtZahle[i] * 1 + pruefziffer
 			sonst
@@ -46,7 +46,7 @@ sucheTopseller(kriterium: Integer, vorgabewert: Integer) : String {
 	String pruefziffer := ""
 	
 	solange i < absatz.Laenge()
-		wenn absatz[i][kriterium] == vorgabewert			
+		wenn absatz[i][kriterium] = vorgabewert			
 			dann 
 				wenn absatz[i][4] > absatzStk
 					dann
@@ -55,7 +55,7 @@ sucheTopseller(kriterium: Integer, vorgabewert: Integer) : String {
 				ende von wenn
 		ende von wenn	
 
-		i: i + 1
+		i := i + 1
 	ende von solange
 
 	wenn pruefziffer = ""
