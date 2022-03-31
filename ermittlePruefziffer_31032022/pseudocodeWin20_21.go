@@ -24,7 +24,7 @@ ermittlePruefziffer(ersteAchtZahle : Integer[]) : Integer {
 	Integer i := 0
 
 	solange i < ersteAchtZahle.Laenge()
-		wenn i % 2 = 0
+		wenn i MODULO 2 = 0
 			dann
 				pruefziffer := ersteAchtZahle[i] * 1 + pruefziffer
 			sonst
