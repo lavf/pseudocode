@@ -9,7 +9,7 @@ Folgende Klassen sind bereits vorhanden:
 | + Konstruktor(sensor_id: Integer, value: Double, time: Long)|
 | + getId() : Integer                                         |
 | + getValue(): Double                                        |
-| + getTime(): Long											  |
+| + getTime(): Long                                           |
 |_____________________________________________________________|
  ____________________________________________
 |                 TempList                   |
@@ -42,7 +42,7 @@ onNewValue(sensor_id: Integer, value: Double, time: Long) {
 	Value valueObj := new Value(sensor_id, value, time)
 
 	tempListObj.setValue(valueObj)
-	ende der funktion
+ende der funktion
 }
 
 maxPeriod(sensor_id: Integer, mindestwert: Double) : Integer {
@@ -60,7 +60,7 @@ maxPeriod(sensor_id: Integer, mindestwert: Double) : Integer {
 		
 		i := i + 1
 		
-	rueckgabe hoechstePeriod
+	rueckgabe hoechstesPeriod
 
-	ende der Funktion
+ende der funktion
 }

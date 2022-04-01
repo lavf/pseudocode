@@ -9,7 +9,7 @@ Folgende Klassen sind bereits vorhanden:
 | + Konstruktor(sensor_id: Integer, value: Double, time: Long)|
 | + getId() : Integer                                         |
 | + getValue(): Double                                        |
-| + getTime(): Long											  |
+| + getTime(): Long                                           |
 |_____________________________________________________________|
  ____________________________________________
 |                 TempList                   |
@@ -63,9 +63,7 @@ class TempList(Value):
                 if tempPos == pos:
                     return elem
             elif pos == 0 and elem._data[0] == sensor_id:
-                return elem
-            
-            
+                return elem                
 
     def getSize(self, sensor_id):
         anzahl = 0
