@@ -1,0 +1,8 @@
+Nr      MitgliedID      Name    Vorname         LeistungID      Leistung        AnzahlStunden   Stundensatz     Gesamt
+1       100062          XXXXX   XXXXX           100076          XXXXX           5               6.0             30.0
+2       100062          XXXXX   XXXXX           500123          XXXXX           1               6.0             6.0
+                                                                                                Summe           36.0
+1       201235          XXXXX   XXXXX           200234          XXXXX           2               6.0             12.0
+2       201235          XXXXX   XXXXX           200356          XXXXX           1               6.0             6.0
+                                                                                                Summe           18.0
+                                                                                                Gesammtsumme    54.0
