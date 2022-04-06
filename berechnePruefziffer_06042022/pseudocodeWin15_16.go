@@ -7,14 +7,14 @@ Beispiel für die Prüfziffernberechnung der ID 6258431979:
 
 							Ziffernstelle 
 			1 	2 	3	4	5	6	7	8	9	pz*	 			Ergebnis 
-______________________________________________________________________________
+_________________________________________________________________________________________________________
 ID 			6 	2	5	8	4	3	1	9	7	9 
-Schritt 1 	12 		10 		8 		2 		14 
-Schritt 2 	3 		1 		8 		2 		5 						19 
-Schritt 3 		2 		8 		3 		9 							22 
-Schritt 4 					19 + 22 								41 
-Schritt 5 	41 auf nächstgrößere durch 10 teilbare Zahl aufrunden 	50 
-Schritt 6 					50 - 41 								9 (PZ*) 
+Schritt 1 		12 		10 		8 		2 		14 
+Schritt 2 		3 		1 		8 		2 		5 					19 
+Schritt 3 			2 		8 		3 		9 						22 
+Schritt 4 						19 + 22 							41 
+Schritt 5 		41 auf nächstgrößere durch 10 teilbare Zahl aufrunden 		50 
+Schritt 6 						50 - 41 								9 (PZ*) 
 
 
 Der Algorithmus soll nach folgenden Vorgaben entwickelt werden: 
