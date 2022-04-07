@@ -1,5 +1,3 @@
-import re
-
 
 messung = [
     ['2019-04-01', '06:00:00', 1,   76,   80],
@@ -9,8 +7,12 @@ messung = [
     ['2019-04-02', '06:00:00', 0,  197,  200]
 ]
 
-def setArray():
+def setArray(laenge):
     intArray = []
+    i = 0
+    while i < laenge:
+        intArray.append(0)
+        i += 1
     return intArray
 
 def drueckeTag(datum,tagesProtokoll):
@@ -25,12 +27,11 @@ def laenge(array):
 def absolut(wert):
     return abs(wert)
 
-def drueckeReport(messung, maxToleranz):
+def drueckeReport(messung, messArtAnzahl, maxToleranz):
     i = 0
     abweichung = 0
     abweichungsProzent = 0
-    fehler = 0
-    tagesProtokoll = setArray()
+    tagesProtokoll = setArray(messArtAnzahl)
     datum = messung[0][0]
 
     while i <= laenge(messung):
@@ -38,15 +39,15 @@ def drueckeReport(messung, maxToleranz):
             abweichung = absolut(messung[i][4] - messung[i][3])
             abweichungsProzent = abweichung * 100 / messung[i][4]
             if abweichungsProzent > maxToleranz:
-                fehler += 1
-                tagesProtokoll.insert(messung[i][2], fehler)
-                i += 1
+                tagesProtokoll[messung[i][2]] += 1
+                   
         else:
             drueckeTag(datum,tagesProtokoll)
-            tagesProtokoll = setArray()
-            fehler = 0
+            tagesProtokoll = setArray(messArtAnzahl)
             if i != laenge(messung):
                 datum = messung[i][0]
-        
+                i -= 1 
+                
+        i += 1 
 
-drueckeReport(messung, 1)
+drueckeReport(messung,3,1)

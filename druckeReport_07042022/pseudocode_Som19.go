@@ -52,15 +52,15 @@ druckeReport(messung: arrayTyp Messung, messArtAnzahl: integer, maxToleranz: dou
 			abweichungsProzent := abweichung * 100 / messung[i].sollWert
 			wenn abweichungsProzent > maxToleranz
 				tagesProtokoll[messung[i].messArt] := tagesProtokoll[messung[i].messArt] + 1
-			ende von wenn
-			i:= i + 1
+			ende von wenn			
 		sonst
 			drueckeTag(datum,tagesProtokoll)
 			tagesProtokoll := setArray(messArtAnzahl)
 			wenn i <> laenge(messung)
 				datum := messung[i].datum
+				i := i - 1
 			ende von wenn
 		ende von wenn
-		
+		i:= i + 1
 	ende von solange
 ende von funktion druckeReport
