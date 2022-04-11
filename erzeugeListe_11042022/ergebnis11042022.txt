@@ -1,0 +1,36 @@
+Mitarbeiter: 12345              Oktober 2019
+Tag     Kommen  Gehen   Anwesenheit     Bemerkung
+======================================================
+1                       00:00           nicht anwesend
+2       8:10    17:20   550
+3       7:50            00:00           Buchung fehlt
+4                       00:00           nicht anwesend
+5                       00:00           nicht anwesend
+6       8:0     16:0    480
+7       16:30           00:00           Buchung fehlt
+8       8:20    16:40   500
+9                       00:00           nicht anwesend
+10                      00:00           nicht anwesend
+11                      00:00           nicht anwesend
+12                      00:00           nicht anwesend
+13                      00:00           nicht anwesend
+14                      00:00           nicht anwesend
+15                      00:00           nicht anwesend
+16                      00:00           nicht anwesend
+17                      00:00           nicht anwesend
+18                      00:00           nicht anwesend
+19                      00:00           nicht anwesend
+20                      00:00           nicht anwesend
+21                      00:00           nicht anwesend
+22                      00:00           nicht anwesend
+23                      00:00           nicht anwesend
+24                      00:00           nicht anwesend
+25                      00:00           nicht anwesend
+26                      00:00           nicht anwesend
+27                      00:00           nicht anwesend
+28                      00:00           nicht anwesend
+29                      00:00           nicht anwesend
+30      8:10            00:00           Buchung fehlt
+31                      00:00           nicht anwesend
+======================================================
+Summe Anwesenheit:      1530
