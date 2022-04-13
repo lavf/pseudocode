@@ -1,0 +1,15 @@
+fahreRegalAn 1
+fahrenEbeneAn 1
+fahreFachAn 1
+Die Ware 434 wird entnommen 1,1,1
+fahreFachAn 4
+Die Ware 434 wird nicht entnommen, weil es andere Ware (Nr.433) in diesem Platz gibt.
+fahreRegalAn 3
+fahrenEbeneAn 3
+fahreFachAn 12
+Die Ware 189 wird entnommen 3,3,12
+fahreRegalAn 4
+fahrenEbeneAn 2
+fahreFachAn 8
+Die Ware 201 wird entnommen 4,2,8
+[[434, 1, 1, 4], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
