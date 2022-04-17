@@ -1,0 +1,12 @@
+K00091
+Pos     LeistungsID     Anzahl  Einzelpreis     Gesamtpreis
+1       100076          5       2.4             12.0
+2       500123          1       15.0            15.0
+                                Rechnungsbetrag(netto)  27.0
+
+K01234
+Pos     LeistungsID     Anzahl  Einzelpreis     Gesamtpreis
+1       200234          2       20.0            40.0
+2       200356          1       15.0            15.0
+3       200357          1       15.0            15.0
+                                Rechnungsbetrag(netto)  55.0
