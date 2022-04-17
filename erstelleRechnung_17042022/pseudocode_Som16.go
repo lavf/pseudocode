@@ -88,9 +88,9 @@ erstelleRechnung() {
 		sonst
 			erstKundenID := zweiterKundenID
 			erstLeistungsID := zweiterLeistungID
-	    	erstEinzelpreis := zweiterEinzelpreis
-	    	erstAnzahl:= zweiterAnzahl
-	    	erstGesamtpreis := aktGesamtpreis
+			erstEinzelpreis := zweiterEinzelpreis
+			erstAnzahl:= zweiterAnzahl
+			erstGesamtpreis := aktGesamtpreis
 
 	
 }
