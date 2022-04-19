@@ -1,0 +1,59 @@
+                                                                                        Seite 1
+Erwin Mustermann                                                        Rechnungsdatum 14.04.2014
+Musterweg 7                                                             Rechnungsnummer R1234
+77777 Musterstadt                                                       Kundennummer K1234
+
+Ihre Bestellung B1234 vom 13.03.2014
+Position        ArtikelNr       Bezeichnung             Einzelpreis (EUR)       Menge   Preis (EUR)
+        1       A1001           Shampoo Haarfein        5.0                     10      50.0
+        2       A0345           Körperlotion M100       3.5                     2       7.0
+        3       A4013           Luxusseife Ramona       25.0                    1       25.0
+        4       A1001           Shampoo Haarfein        129.0                   1       129.0
+        5       A0345           Körperlotion M100       0                       2       0
+        6       A4013           Luxusseife Ramona       0                       1       0
+        7       A1001           Shampoo Haarfein        0                       10      0
+        8       A0345           Körperlotion M100       0                       2       0
+        9       A4013           Luxusseife Ramona       0                       1       0
+        10      A1001           Shampoo Haarfein        0                       10      0
+        11      A1001           Shampoo Haarfein        0                       10      0
+        12      A0345           Körperlotion M100       0                       2       0
+        13      A4013           Luxusseife Ramona       0                       1       0
+        14      A1001           Shampoo Haarfein        0                       10      0
+        15      A0345           Körperlotion M100       0                       2       0
+        16      A4013           Luxusseife Ramona       0                       1       0
+        17      A1001           Shampoo Haarfein        0                       10      0
+        18      A0345           Körperlotion M100       0                       2       0
+        19      A4013           Luxusseife Ramona       0                       1       0
+        20      A1001           Shampoo Haarfein        0                       10      0
+
+
+                                                                                        Seite 2
+Position        ArtikelNr       Bezeichnung             Einzelpreis (EUR)       Menge   Preis (EUR)
+        21      A1001           Shampoo Haarfein        0                       10      0
+        22      A0345           Körperlotion M100       0                       2       0
+        23      A4013           Luxusseife Ramona       0                       1       0
+                                                        Summe netto                     211.0
+                                                        Rabatt (2.0%)                   -4.22
+                                                        Summe netto abzgl. Rabatt       206.78
+                                                        USt (19%)                       39.29
+                                                        Summe brutto                    246.07
+
+
+                                                                                        Seite 1
+Erwin Mustermann                                                        Rechnungsdatum 14.06.2014
+Musterweg 7                                                             Rechnungsnummer R1235
+77777 Musterstadt                                                       Kundennummer K1234
+
+Ihre Bestellung X1234 vom 13.05.2014
+Position        ArtikelNr       Bezeichnung             Einzelpreis (EUR)       Menge   Preis (EUR)
+        1       A1001           Shampoo Haarfein        5.0                     10      50.0
+        2       A0345           Körperlotion M100       3.5                     2       7.0
+        3       A4013           Luxusseife Ramona       25.0                    1       25.0
+                                                        Summe netto                     82.0
+                                                        Rabatt (2.0%)                   -1.64
+                                                        Summe netto abzgl. Rabatt       80.36
+                                                        USt (19%)                       15.27
+                                                        Summe brutto                    95.63
+
+
+341.6966
