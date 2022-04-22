@@ -1,0 +1,59 @@
+/*
+
+Die Plan-B GmbH soll für das neue Kassensystem der Baumarkt ÖkoSpan KG die Methode rabatt() erstellen. 
+Die Methode soll für einen Kundeneinkauf den gesamten gewährten Rabatt ermitteln.
+
+Vorgaben:
+- Jedes Produkt ist einer Warengruppe (A, B, C ...) zugeordnet. Für jede Warengruppe ist ein Rabattsatz 
+festgelegt (siehe Tabelle rabatt). Die Tabelle soll im Laufe der Zeit um weitere Warengruppen erweitert 
+werden.
+- Die Daten der von der Kasse erfassten Waren eines Kunden werden in dem zweidimensionalen Array artikel 
+vom Datentyp String gespeichert (siehe Beispiel). Auf eine Wandlung der Werte in andere Datentypen kann 
+in der Darstellung der Logik verzichtet werden.
+- Rückgabewert ist der gesamte gewährte Rabatt in EUR (rabattGes).
+
+
+Array artikel (Beispiel)
+Pos Bezeidinung 							Wg_Id^1 Listen_VKP^3 	Menge
+[0] [1]										[2]		[3]				[4]
+1 	Dünger									A 		7,80			2
+2 	Garteneinfassung Granit 10 X 20 X 100 	B 		94,86 			20
+3 	Rosen 									C 		56,00 			3
+4 	Werkzeugset 							D 		87,50 			1
+5 	Fliesen, Feinsteinzeug 43 X 43 			B 		40,00			5
+- - - -
+
+Tabelle rabatt
+Wg_Id^1 Rabattsatz^2
+[0]		[1]
+A		2,0
+B		2,5
+C		7,0
+D		6,0
+E		5,0
+----------------------
+
+Wg_Id = Warengruppen-iD
+Rabattsatz (in Prozent)
+Listen_VKP = Listenverkaufspreis in EUR
+
+
+*/
+
+rabatt() : double
+	Integer i := 0
+	Double summeRabatt := 0
+
+	solange i < laenge(artikel)
+		j = 0
+		solange j < laenge(rabatt)
+			wenn rabatt[j][0] = artikel[i][2] dann
+				summeRabatt := summeRabatt +  (artikel[i][3]* artikel[i][4]) * rabatt[j][1])/100
+				abbruch
+			ende wenn
+			j := j + 1
+		ende solange
+		i := i + 1
+	ende solange
+
+	rueckgabe summeRabatt
