@@ -27,44 +27,50 @@ pruefePasswort(passwort : String) : String
 
 	wenn laenge >= 8 und laenge <= 10 dann
 		solange pos < laenge
-			Integer i := 0
+			Integer i, y, j, z, x := 0
 			zeichen := passwort[pos]
+
 			solange i < laenge(gross)
 				wenn zeichen = gross[i]
 					zaehl_Gross := zaehl_Gross + 1
+					y := 1
 					abbruch
 				ende wenn
 				i := i + 1
 			ende solange
 			
-			j := 0
-			solange j < laenge(gross)
-				wenn zeichen = klein[j] dann
+			i := 0
+
+			solange i < laenge(gross)
+				wenn zeichen = klein[i] dann
 					zaehl_Klein := zaehl_Klein + 1
+					j := 1
 					abbruch				
 				ende wenn
-				j := j + 1
+				i := i + 1
 			ende solange
 			
-			z := 0
-			solange z < laenge(gross)
-				wenn zeichen = sonder[z] dann
+			i := 0
+			solange i < laenge(gross)
+				wenn zeichen = sonder[i] dann
 					zaehl_Sonder := zaehl_Sonder + 1
+					z := 1
 					abbruch				
 				ende wenn
-				z := z + 1
+				i := i + 1
 			ende solange
 
-			x := 0
-			solange x < laenge(gross)
-				wenn zeichen = ziffer[x] dann
+			i := 0
+			solange i < laenge(gross)
+				wenn zeichen = ziffer[i] dann
 					zaehl_Ziffer:= zaehl_Ziffer + 1
+					x := 1
 					abbruch
 				ende wenn
-				x := x + 1
+				i := i + 1
 			ende solange
 
-			wenn i + j + z + x = 0 dann
+			wenn y + j + z + x = 0 dann
 				verbotenesZeichen := verbotenesZeichen + 1
 
 			pos := pos + 1 
