@@ -1,0 +1,13 @@
+Haus: H1234
+Muell: 1200.00
+Wasser: 3000.00
+Strom: 500.00
+Versicherung: 2400.00
+Haus-Gesamtkosten: 7100.0
+
+Haus: H4321
+Muell: 3800.00
+Wasser: 8900.00
+Strom: 1200.00
+Versicherung: 7800.00
+Haus-Gesamtkosten: 21700.0

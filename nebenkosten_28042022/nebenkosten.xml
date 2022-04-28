@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Nebenkosten>
+    <Haus ID="1234">
+        <Muell>1200.00</Muell>
+        <Wasser>3000.00</Wasser>
+        <Strom>500.00</Strom>
+        <Versicherung>2400.00</Versicherung>
+    </Haus>
+    <Haus ID="4321">
+        <Muell>3800.00</Muell>
+        <Wasser>8900.00</Wasser>
+        <Strom>1200.00</Strom>
+        <Versicherung>7800.00</Versicherung>
+    </Haus>
+</Nebenkosten>
